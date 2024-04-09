@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  // Ejemplo de uso del micro framework
+  // Ejemplo de uso de Micro biblioteca
   const state = {
     count: 0,
   };

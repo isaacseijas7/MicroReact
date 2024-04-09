@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  // Micro framework inspirado en React
+  // Micro biblioteca inspirado en React
   /* Este código define un micro marco llamado MicroReact que proporciona dos funciones principales: */
   const MicroReact = {
     version: "1.0.0",

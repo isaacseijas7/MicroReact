@@ -1,2 +1,3 @@
 # MicroReact
-Ejemplo de un framework JavaScript inspirado en React
+
+Ejemplo de una micro biblioteca JavaScript inspirada en React
