@@ -1,18 +1,15 @@
 (() => {
   "use strict";
 
-  // Ejemplo de uso de Micro biblioteca
-  const state = {
-    count: 0,
-  };
-
+  let [count, setCount] = MicroReact.useState(0);
+  
   const increment = () => {
-    state.count++;
+    setCount(count++);
     render();
   };
 
   const decrement = () => {
-    state.count--;
+    setCount(count--);
     render();
   };
 
@@ -32,10 +29,10 @@
       MicroReact.createElement(
         "h1",
         {
-        style: `font-size: 30px;
+          style: `font-size: 30px;
                 color: #127dbd;`,
         },
-        `Contador: ${state.count}`
+        `Contador: ${count}`
       ),
       MicroReact.createElement("button", { onClick: increment }, "Incrementar"),
       MicroReact.createElement("button", { onClick: decrement }, "Decrementar")
